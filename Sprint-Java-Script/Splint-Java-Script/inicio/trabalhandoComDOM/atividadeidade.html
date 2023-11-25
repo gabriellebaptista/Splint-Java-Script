@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        //declara variável para meses, dias, horas e minutos
+        let meses = 12
+        let dias = 365
+        let horas = 24
+        let minutos = 60
+
+       //entrada de dados
+        const nomePessoa = prompt("Informe seu primeiro nome:")
+        const idadePessoa = prompt("Informe qual sua idade")
+
+        //processamento de dados
+        let idadeMeses = idadePessoa * meses
+        let idadeDias = idadePessoa * dia
+        let idadeHoras = idadePessoa * horas
+        let idadeMinutos = idadePessoa * minutos
+         
+        //saída dos dados
+        alert (` nome: ${nomePessoa}, idade em meses: ${idadeMeses}, idade em dias: ${idadeDias}, idade em horas: ${idadeHoras}, idade em minutos: ${idadeMinutos}`)
+
+        //Decições (if - else)
+
+        idadePessoa <= 0 || idadePessoa >= 100 ? alert ("a idade da pessoa não pode ser menor que 0 e menor que 100")
+        :
+        alert(
+            `nome: ${nomePessoa}, 
+            idade em meses: ${idadeMeses},
+            idade em dias: ${idadeDias}, 
+            idade em horas: ${idadeHoras},
+            idade em minutos: ${idadeMinutos}`)
+
+
+
+
+    
+        // if (iadePessoa <= 0 || idadePessoa >= 100)
+       // {
+        //alert ("a idade da pessoa não pode ser menor que 0 e menor que 100")
+       // }else{
+
+            //saída dos dados
+       // alert (` nome: ${nomePessoa}, idade em meses: ${idadeMeses}, idade em dias: ${idadeDias}, idade em horas: ${idadeHoras}, idade em minutos: ${idadeMinutos}`)
+
+
+        //}
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

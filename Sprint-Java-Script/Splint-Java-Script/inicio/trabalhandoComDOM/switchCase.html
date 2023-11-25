@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        //switch-case
+        //Adega de bebidas
+
+        //menu personalizado
+        alert(`
+            Bem vindo a minha adega, escolha uma opção de bebida
+            1- Cola-Cola
+            2- Fanta-Uva
+            3- Cachaça
+            4- Cantinho
+            5- Cervja
+            6- Corote
+         `)
+
+         // entrada de dados
+         const opcaoUsuario = Number (prompt ("Qual opção de bebida você deseja escolher"))
+
+         //processamento de dados
+         switch (pcaoUsuario) { // 1 2 3 4 5 6
+            case 1:
+                //saída de dados
+                alert("a opção que o usuário informou que é Coca-Cola")
+                 
+                 let respostaUser = (prompt ("Você deseja acrescentar gelo e limão ?"))
+
+                 respostaUser == "sim" ? " A sua bebida terá gelo e limão" : "Ok, sem gelo e sem limão"
+
+                 //ternário
+                 respostaUser == "sim" ? alert(" A sua bebida terá gelo e limão") : alert("Ok, sem gelo e sem limão")
+                 break;
+
+
+                 case 2:
+                //saída de dados
+                alert("a opção que o usuário informou que é Fanta-Uva")
+                
+
+                 let respostaUser2 = (prompt ("Você deseja acrescentar gelo e limão ?"))
+
+                 //ternário
+                 respostaUser == "sim" ? alert(" A sua bebida terá gelo e limão") : alert("Ok, sem gelo e sem limão")
+                 break;
+
+                 case 3:
+                //saída de dados
+                alert("a opção que o usuário informou que é Cachaça")
+
+                 //ternário
+                 respostaUser == "sim" ? alert(" A sua bebida vai acompanhar sal e limão") : alert("Ok, sem sal e sem limão")
+                 break;
+
+                  case 4:
+                //saída de dados
+                alert("a opção que o usuário informou que é Cantinho")
+                 break;
+
+                 case 5:
+                //saída de dados
+                alert("a opção que o usuário informou que é Cerveja")
+                break;
+
+                 case 6:
+                //saída de dados
+                alert("a opção que o usuário informou que é Corote")
+                break;
+                 
+            default
+            
+         }
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
